@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f850c8a3;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f850c8a3;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-text {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-subtext {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #ee53dc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f6f6f6;
+}
+
+/* About, Projects, Contact Sections */
+.about, .projects, .contact {
+    padding: 100px 0;
+}
+
+.about h2, .informacion section h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image {
+    width: calc(33.33% - 20px); /* Ajusta el ancho de cada imagen según sea necesario */
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image:hover img {
+    transform: scale(1.05);
+}
+
+
+.language-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-bar img {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    margin: 0 10px; /* Espacio entre los logos */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nueva+Fuente');
+body {
+    font-family: 'Nueva Fuente', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Nueva Fuente', sans-serif;
+}
+
+/* Aplica la nueva fuente a otros elementos según sea necesario */
+
+body {
+    background-color: #f6dcf1; /* Color en formato hexadecimal */
+    background-color: rgb(252, 253, 254); /* Nombre de color */
+    background-color: rgba(244, 59, 231, 0.52); /* Color rojo con 50% de transparencia */
+    background-color: hsl(300, 17%, 98%); /* Verde con saturación y luminosidad al 100% */
+}
